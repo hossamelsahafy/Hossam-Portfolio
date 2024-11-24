@@ -18,7 +18,7 @@ const Header = () => {
             className="h-10 w-10"
           />
           <h1 className="text-4xl font-semibold">
-            Hosam <span className="text-accent">.</span>
+            Hossam <span className="text-accent">.</span>
           </h1>
         </Link>
 
