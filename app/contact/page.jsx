@@ -48,6 +48,7 @@ const Contact = () => {
   const Service = process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE;
   const Template = process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE;
   const Public = process.env.NEXT_PUBLIC_EMAIL_JS_USER;
+  console.log(Service, Template, Public);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
