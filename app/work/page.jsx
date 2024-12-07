@@ -21,7 +21,7 @@ const projects = [
     title: "PizzaHub",
     description:
       "Developed a full-stack pizza delivery app using the MERN stack. I handled user authentication and authorization with JSON Web Tokens (JWT) to ensure security. Implemented email notifications, including password recovery and resending verification emails, allowing users to manage their accounts. Worked on key features like the menu page, signup, login, and user profile updates, creating a seamless experience for customers",
-    video: "https://player.vimeo.com/video/1032802752?h=b9ec5a6ca3",
+    video: "https://youtu.be/Co7ECRWMU9k",
     stack: [
       { name: "TypeScript" },
       { name: "Express" },
