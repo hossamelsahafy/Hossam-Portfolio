@@ -58,9 +58,12 @@ const Work = () => {
   const videoRefs = useRef([]);
 
   const handleVideoPlay = (currentIndex) => {
-    videoRefs.current.forEach((video, index) => {
-      if (index !== currentIndex && video) {
-        video.pause();
+    videoRefs.current.forEach((iframe, index) => {
+      if (index !== currentIndex && iframe) {
+        iframe.contentWindow.postMessage(
+          '{"event":"command","func":"pauseVideo","args":""}',
+          "*"
+        );
       }
     });
   };
