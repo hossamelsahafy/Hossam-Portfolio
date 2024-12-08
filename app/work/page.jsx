@@ -21,7 +21,7 @@ const projects = [
     title: "PizzaHub",
     description:
       "Developed a full-stack pizza delivery app using the MERN stack. I handled user authentication and authorization with JSON Web Tokens (JWT) to ensure security. Implemented email notifications, including password recovery and resending verification emails, allowing users to manage their accounts. Worked on key features like the menu page, signup, login, and user profile updates, creating a seamless experience for customers",
-    video: "https://youtu.be/Co7ECRWMU9k",
+    video: "https://www.youtube.com/embed/Co7ECRWMU9k",
     stack: [
       { name: "TypeScript" },
       { name: "Express" },
@@ -38,7 +38,7 @@ const projects = [
     title: "CareClinic",
     description:
       "Care Clinic is an appointment management system streamlining patient-doctor scheduling in clinics. I developed the Admin Dashboard, enabling management of doctors, departments, and appointments. Key features include CRUD operations for doctor profiles, department organization, appointment tracking, email notifications, and authentication with OAuth (Google, Facebook). The system also supports user sign-out, enhancing security and accessibility",
-    video: "https://player.vimeo.com/video/1032797721?h=44e4cb6433",
+    video: "https://www.youtube.com/embed/XT47il8ANUI",
     stack: [
       { name: "NodeJs" },
       { name: "Express" },
@@ -146,7 +146,7 @@ const Work = () => {
                           src={project.video}
                           className="w-full h-full pointer-events-auto rounded-[8px]"
                           frameBorder="0"
-                          allow="autoplay; fullscreen"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowFullScreen
                           style={{
                             objectFit: "contain",
