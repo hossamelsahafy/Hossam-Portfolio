@@ -53,13 +53,13 @@ const projects = [
   "category": "Full-Stack",
   "title": "GigaByte-Damietta",
   "description": "GigaByte-Damietta is a full-stack e-commerce platform built with Next.js and Payload CMS. The application allows users to browse products, add them to the cart, and complete purchases. The admin panel provides the ability to manage collections, add products, and view orders. Key features include a streamlined checkout process, user authentication with OAuth (Google), and dynamic product management. The system also integrates Cloudinary for media hosting and allows admins to easily manage product images.",
-  "video": "https://www.youtube.com/watch?v=D_2owbb-vew&lc=Ugx9ILPRtKvd4qKFZ_54AaABAg",
+  "video": "https://www.youtube.com/embed/D_2owbb-vew",
   "stack": [
     { "name": "Next.js" },
     { "name": "Payload CMS" },
     { "name": "MongoDB" }
   ],
-  "github": "https://github.com/MoSalem149/gigabyte-damietta",
+  "github": "https://github.com/hossamelsahafy/GigaByte",
   "live": "https://gb-d.vercel.app"
 }
 
