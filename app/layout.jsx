@@ -42,6 +42,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+	  <meta name="google-site-verification" content="Uf9zxYW8OpykE0fBK-__MsDMxq7ZmhBm0M2zCQ3CTrA" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
         <title>Hossam Elsahafy</title>
