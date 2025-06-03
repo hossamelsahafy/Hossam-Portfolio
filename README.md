@@ -24,6 +24,13 @@ Throughout my journey, I’ve gained hands-on experience with:
 - Node.js
 - NestJS
 
+### 🎨 UI Libraries & Styling
+- **Tailwind CSS**
+- **Material UI (MUI)**
+
+### 📦 CMS & Content Management
+- **Payload CMS**
+
 ### 🗃️ Databases
 - MySQL
 - MongoDB
@@ -47,8 +54,8 @@ Check out my online portfolio here:
 
 If you're looking for a motivated developer who’s ready to learn, build, and grow — let’s connect!
 
-- Email: hossamelsa7afy54@gmail.com
-- LinkedIn: [https://www.linkedin.com/in/hossamelsahafy-4h/](#)
+- 📧 Email: [hossamelsa7afy54@gmail.com](mailto:hossamelsa7afy54@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/hossamelsahafy-4h](https://www.linkedin.com/in/hossamelsahafy-4h/)
 
 ---
 
