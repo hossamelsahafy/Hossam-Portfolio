@@ -48,21 +48,28 @@ const projects = [
     github: "https://github.com/MoSalem149/care-clinics",
     live: "",
   },
-	{
-  "num": "03",
-  "category": "Full-Stack",
-  "title": "GigaByte-Damietta",
-  "description": "GigaByte-Damietta is a full-stack e-commerce platform built with Next.js and Payload CMS. The application allows users to browse products, add them to the cart, and complete purchases. The admin panel provides the ability to manage collections, add products, and view orders. Key features include a streamlined checkout process, user authentication with OAuth (Google), and dynamic product management. The system also integrates Cloudinary for media hosting and allows admins to easily manage product images.",
-  "video": "https://www.youtube.com/embed/D_2owbb-vew",
-  "stack": [
-    { "name": "Next.js" },
-    { "name": "Payload CMS" },
-    { "name": "MongoDB" }
-  ],
-  "github": "https://github.com/hossamelsahafy/GigaByte",
-  "live": "https://gb-d.vercel.app"
-}
-
+  {
+    num: "03",
+    category: "Full-Stack",
+    title: "GigaByte-Damietta",
+    description:
+      "GigaByte-Damietta is a full-stack e-commerce platform built with Next.js and Payload CMS. The application allows users to browse products, add them to the cart, and complete purchases. The admin panel provides the ability to manage collections, add products, and view orders. Key features include a streamlined checkout process, user authentication with OAuth (Google), and dynamic product management. The system also integrates Cloudinary for media hosting and allows admins to easily manage product images.",
+    video: "https://www.youtube.com/embed/D_2owbb-vew",
+    stack: [{ name: "Next.js" }, { name: "Payload CMS" }, { name: "MongoDB" }],
+    github: "https://github.com/hossamelsahafy/GigaByte",
+    live: "https://gb-d.vercel.app",
+  },
+  {
+    num: "04",
+    category: "Frontend",
+    title: "Art Packaging",
+    description:
+      "Art Packaging is a multilingual, responsive frontend web application built using Next.js and Tailwind CSS. Designed for a small business selling handmade products, the app supports both English and Arabic for a broader audience reach. It features a clean, modern interface to showcase products, and allows users to place orders directly via WhatsApp. The system integrates Payload CMS to give admins a user-friendly dashboard for managing product listings. Lightweight, fast, and simple — ideal for small-scale e-commerce needs.",
+    video: "https://www.youtube.com/embed/KBpDcjDqgfc?si=AjfSCkxx45J98UAB",
+    stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }],
+    github: "https://github.com/hossamelsahafy/art_packaging",
+    live: "https://art.mohsinalbasalah.com",
+  },
 ];
 const Work = () => {
   const [project, setproject] = useState(projects[0]);
