@@ -68,7 +68,7 @@ const projects = [
     video: "https://www.youtube.com/embed/KBpDcjDqgfc?si=AjfSCkxx45J98UAB",
     stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }],
     github: "https://github.com/hossamelsahafy/art_packaging",
-    live: "https://art.mohsinalbasalah.com",
+    live: "https://art.mohsinalbasalah.com/en",
   },
 ];
 
