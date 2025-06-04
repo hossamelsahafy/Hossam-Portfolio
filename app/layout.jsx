@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
           content="https://hossam-portfolio-ruby.vercel.app/ff.ico"
         />
 
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/ff.ico" type="image/x-icon" />
 
         <title>Hossam Elsahafy | Full Stack Developer Portfolio</title>
       </head>
