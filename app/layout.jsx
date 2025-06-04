@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
+import { Images } from "lucide-react";
 
 const JetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -18,6 +19,10 @@ export const metadata = {
   keywords: [
     "hossam",
     "hossam elsahafy",
+    "Hossam Elsahafy",
+    "حسام",
+    "حسام الصحفي",
+    "الصحفي",
     "elsahafy",
     "full stack developer",
     "frontend developer",
@@ -31,6 +36,12 @@ export const metadata = {
       "Explore Hossam Elsahafy's personal portfolio – skilled in React, Next.js, Node.js, and more.",
     url: "https://hossam-portfolio-ruby.vercel.app",
     type: "website",
+    Images: [
+      {
+        url: "https://hossam-portfolio-ruby.vercel.app/me.jpg",
+        alt: "Hossam Elsahafy",
+      },
+    ],
   },
   icons: {
     icon: "/ff.ico",
@@ -45,9 +56,14 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="Uf9zxYW8OpykE0fBK-__MsDMxq7ZmhBm0M2zCQ3CTrA"
         />
+        <meta
+          property="og:image"
+          content="https://hossam-portfolio-ruby.vercel.app/ff.ico"
+        />
+
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
-        <title>Hossam Elsahafy</title>
+        <title>Hossam Elsahafy | Full Stack Developer Portfolio</title>
       </head>
       <body className={`${JetbrainsMono.variable}`}>
         <Header />
