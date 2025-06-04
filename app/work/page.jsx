@@ -71,6 +71,7 @@ const projects = [
     live: "https://art.mohsinalbasalah.com",
   },
 ];
+
 const Work = () => {
   const [project, setproject] = useState(projects[0]);
   const handleSlideChange = (swiper) => {
