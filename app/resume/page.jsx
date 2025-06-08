@@ -121,6 +121,30 @@ const Skills = {
     },
   ],
 };
+const Experience = {
+  title: "My Experience",
+  des: "This experience was gained through freelance work and during my time working as a freelance developer with ByteForce Company.",
+  projects: [
+    {
+      project: "GigaByte Damietta",
+      image: "GigaByte.png",
+      des: "An e-commerce application focused on selling computer components, accessories, and laptops. Built with a clean user interface to provide a smooth shopping experience.",
+      link: "https://gb-d.vercel.app/",
+    },
+    {
+      project: "Art Packaging",
+      image: "Art.png",
+      des: "A simple e-commerce platform showcasing the owner's products. To place an order, users can directly contact the seller via WhatsApp for a more personal buying experience.",
+      link: "https://art.mohsinalbasalah.com/en",
+    },
+    {
+      project: "Novo",
+      image: "Novo.png",
+      des: "An e-commerce application dedicated to selling pharmaceutical products. The platform provides users with an easy way to browse and order medicines.",
+      link: "Null",
+    },
+  ],
+};
 
 const Resume = () => {
   return (
@@ -140,6 +164,7 @@ const Resume = () => {
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
             <TabsTrigger value="education">Education</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
+            <TabsTrigger value="experience">Experience</TabsTrigger>
             <TabsTrigger value="aboutme">About me</TabsTrigger>
           </TabsList>
           <div className="min-h-[70vh] w-full">
@@ -186,7 +211,6 @@ const Resume = () => {
                                   ))
                                 : edu.name}
                             </p>
-
                             {/* Grade */}
                             <div className="text-sm text-gray-400 md:text-xs text-start">
                               {typeof edu.grade === "string"
@@ -233,6 +257,51 @@ const Resume = () => {
                 </ul>
               </div>
             </TabsContent>
+            <TabsContent
+              value="experience"
+              className="w-full text-center xl:text-left"
+            >
+              <div className="flex flex-col gap-[30px]">
+                <h3 className="text-4xl font-bold">{Experience.title}</h3>
+
+                {/* Main description */}
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {Experience.des}
+                </p>
+
+                {/* Project cards */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[900px] mx-auto xl:mx-0">
+                  {Experience.projects.map((proj, idx) => (
+                    <div
+                      key={idx}
+                      className="bg-[#2323] p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 border border-white/10"
+                    >
+                      <h4 className="text-xl font-semibold text-white mb-2">
+                        {proj.project}
+                      </h4>
+                      <img
+                        src={proj.image}
+                        alt={proj.project}
+                        className="w-full rounded my-4"
+                      />
+                      <p className="text-white/60 text-sm mb-4">{proj.des}</p>
+
+                      {proj.link !== "Null" && (
+                        <a
+                          href={proj.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block text-sm transition-all duration-300 hover:text-[#00FF99]"
+                        >
+                          Visit Project
+                        </a>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </TabsContent>
+
             <TabsContent
               value="aboutme"
               className="w-full text-center xl:text-left"
