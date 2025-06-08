@@ -270,7 +270,7 @@ const Resume = () => {
                 </p>
 
                 {/* Project cards */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[900px] mx-auto xl:mx-0">
+                <div className="grid grid-cols-1 mb-4 md:grid-cols-2 gap-6 max-w-[900px] mx-auto xl:mx-0">
                   {Experience.projects.map((proj, idx) => (
                     <div
                       key={idx}
@@ -291,7 +291,7 @@ const Resume = () => {
                           href={proj.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-block text-sm transition-all duration-300 hover:text-[#00FF99]"
+                          className="inline-block text-sm transition-all font-bold duration-300 hover:text-[#00FF99]"
                         >
                           Visit Project
                         </a>
