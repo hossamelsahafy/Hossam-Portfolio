@@ -162,13 +162,22 @@ const Resume = () => {
           className="flex flex-col xl:flex-row gap-[60px]"
         >
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
-            <TabsTrigger value="education">Education</TabsTrigger>
-            <TabsTrigger value="skills">Skills</TabsTrigger>
-            <TabsTrigger value="experience">Experience</TabsTrigger>
-            <TabsTrigger value="aboutme">About me</TabsTrigger>
+            <a href="#education">
+              <TabsTrigger value="education">Education</TabsTrigger>
+            </a>
+            <a href="#skills">
+              <TabsTrigger value="skills">Skills</TabsTrigger>
+            </a>
+            <a href="#experience">
+              <TabsTrigger value="experience">Experience</TabsTrigger>
+            </a>
+
+            <a href="#aboutme">
+              <TabsTrigger value="aboutme">About me</TabsTrigger>
+            </a>
           </TabsList>
           <div className="min-h-[70vh] w-full">
-            <TabsContent value="education" className="w-full">
+            <TabsContent value="education" className="w-full" id="education">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4l font-bold">{Education.title}</h3>
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
@@ -227,7 +236,7 @@ const Resume = () => {
                 </ScrollArea>
               </div>
             </TabsContent>
-            <TabsContent value="skills" className="w-full h-full">
+            <TabsContent value="skills" className="w-full h-full" id="skills">
               <div className="flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{Skills.title}</h3>
@@ -260,6 +269,7 @@ const Resume = () => {
             <TabsContent
               value="experience"
               className="w-full text-center xl:text-left"
+              id="experience"
             >
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{Experience.title}</h3>
@@ -305,6 +315,7 @@ const Resume = () => {
             <TabsContent
               value="aboutme"
               className="w-full text-center xl:text-left"
+              id="aboutme"
             >
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
