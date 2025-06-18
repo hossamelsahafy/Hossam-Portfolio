@@ -141,7 +141,7 @@ const Experience = {
       project: "Novo",
       image: "Novo.png",
       des: "An e-commerce application dedicated to selling pharmaceutical products. The platform provides users with an easy way to browse and order medicines.",
-      link: "Null",
+      link: "http://207.180.244.181:7000/en",
     },
   ],
 };
