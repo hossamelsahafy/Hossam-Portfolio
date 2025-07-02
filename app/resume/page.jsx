@@ -269,36 +269,38 @@ const Resume = () => {
                   {Experience.des}
                 </p>
 
-                {/* Project cards */}
-                <div className="grid grid-cols-1 mb-4 md:grid-cols-2 gap-6 max-w-[900px] mx-auto xl:mx-0">
-                  {Experience.projects.map((proj, idx) => (
-                    <div
-                      key={idx}
-                      className="bg-[#2323] p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 border border-white/10"
-                    >
-                      <h4 className="text-xl font-semibold text-white mb-2">
-                        {proj.project}
-                      </h4>
-                      <img
-                        src={proj.image}
-                        alt={proj.project}
-                        className="w-full rounded my-4"
-                      />
-                      <p className="text-white/60 text-sm mb-4">{proj.des}</p>
+                <ScrollArea className="h-[400px]">
+                  {/* Project cards */}
+                  <div className="grid grid-cols-1 mb-4 md:grid-cols-2 gap-6 max-w-[900px] mx-auto xl:mx-0">
+                    {Experience.projects.map((proj, idx) => (
+                      <div
+                        key={idx}
+                        className="bg-[#2323] p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 border border-white/10"
+                      >
+                        <h4 className="text-xl font-semibold text-white mb-2">
+                          {proj.project}
+                        </h4>
+                        <img
+                          src={proj.image}
+                          alt={proj.project}
+                          className="w-full rounded my-4"
+                        />
+                        <p className="text-white/60 text-sm mb-4">{proj.des}</p>
 
-                      {proj.link !== "Null" && (
-                        <a
-                          href={proj.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-block text-sm transition-all font-bold duration-300 hover:text-[#00FF99]"
-                        >
-                          Visit Project
-                        </a>
-                      )}
-                    </div>
-                  ))}
-                </div>
+                        {proj.link !== "Null" && (
+                          <a
+                            href={proj.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block text-sm transition-all font-bold duration-300 hover:text-[#00FF99]"
+                          >
+                            Visit Project
+                          </a>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </ScrollArea>
               </div>
             </TabsContent>
 
