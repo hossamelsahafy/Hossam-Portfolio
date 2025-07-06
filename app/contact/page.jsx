@@ -107,10 +107,10 @@ const Contact = () => {
     >
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-[30px]">
-          <div className="xl:w-[54%] rounded-lg order-2 xl:order-none">
+          <div className="gradient-border xl:w-[54%]  order-2 xl:order-none">
             <motion.form
               onSubmit={handleSubmit}
-              className="border-[3px] rounded-2xl flex flex-col gap-6 p-10 relative overflow-hidden"
+              className=" flex flex-col gap-6 p-10 relative overflow-hidden"
               style={{
                 borderRadius: "1.5rem",
                 borderImageSource:
