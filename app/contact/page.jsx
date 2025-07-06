@@ -48,7 +48,7 @@ const Contact = () => {
   const Service = process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE;
   const Template = process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE;
   const Public = process.env.NEXT_PUBLIC_EMAIL_JS_USER;
-  
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -107,21 +107,25 @@ const Contact = () => {
     >
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-[30px]">
-          <div className="xl:w-[54%] order-2 xl:order-none">
+          <div className="xl:w-[54%] rounded-lg order-2 xl:order-none">
             <motion.form
               onSubmit={handleSubmit}
-              className="flex flex-col gap-6 p-10 rounded-xl relative overflow-hidden"
+              className="border-[3px] rounded-2xl flex flex-col gap-6 p-10 relative overflow-hidden"
               style={{
-                background:
+                borderRadius: "1.5rem",
+                borderImageSource:
                   "linear-gradient(90deg, #005f4f, #004080, #6f004f, #004080, #005f4f)",
-                backgroundSize: "500% 100%",
+                borderImageSlice: 1,
               }}
               animate={{
-                backgroundPosition: ["0% 50%", "100% 50%"],
+                borderImageSource: [
+                  "linear-gradient(270deg, #ff00cc, #3333ff, #00ffcc)",
+                  "linear-gradient(270deg, #00ffcc, #ff00cc, #3333ff)",
+                ],
               }}
               transition={{
-                backgroundPosition: {
-                  duration: 22,
+                borderImageSource: {
+                  duration: 10,
                   repeat: Infinity,
                   repeatType: "reverse",
                   ease: "easeInOut",
