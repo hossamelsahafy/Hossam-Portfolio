@@ -19,6 +19,7 @@ export const metadata = {
   keywords: [
     "dev Hossam",
     "dev hossam",
+    "Hossam Dev",
     "hossam",
     "hossam elsahafy",
     "Hossam Elsahafy",
