@@ -17,6 +17,8 @@ export const metadata = {
   description:
     "Portfolio of Hossam Elsahafy – Full Stack Developer skilled in React, Next.js, Node.js, and more. Explore my projects and experience.",
   keywords: [
+    "dev Hossam",
+    "dev hossam",
     "hossam",
     "hossam elsahafy",
     "Hossam Elsahafy",
