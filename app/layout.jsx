@@ -39,7 +39,7 @@ export const metadata = {
       "Explore Hossam Elsahafy's personal portfolio – skilled in React, Next.js, Node.js, and more.",
     url: "https://hossam-portfolio-ruby.vercel.app",
     type: "website",
-    Images: [
+    images: [
       {
         url: "https://hossam-portfolio-ruby.vercel.app/me.jpg",
         alt: "Hossam Elsahafy",
@@ -62,6 +62,10 @@ export default function RootLayout({ children }) {
         <meta
           property="og:image"
           content="https://hossam-portfolio-ruby.vercel.app/ff.ico"
+        />
+        <meta
+          name="keywords"
+          content="dev hossam, حسام الصحفي, Hossam, حسام , backend developer, frontend developer, full-stack developer"
         />
 
         <link rel="icon" href="/ff.ico" type="image/x-icon" />
