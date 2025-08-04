@@ -70,6 +70,21 @@ const projects = [
     github: "https://github.com/hossamelsahafy/art_packaging",
     live: "https://art.mohsinalbasalah.com/en",
   },
+  {
+    num: "05",
+    category: "Full-Stack",
+    title: "NovoApp",
+    description:
+      "NovoApp is a bilingual, responsive frontend web application built with Next.js, Payload CMS, and Tailwind CSS. Designed for Interpharma Corporation (IPC), the platform promotes health and wellness through probiotics and innovative veterinary solutions. Supporting both Arabic and English, the site delivers a seamless user experience with optimized SEO and fast performance. It features informative sections like About Us, Products, Careers, Articles, and Contact, while also offering newsletter subscriptions and dynamic content management via Payload CMS. NovoApp reflects IPC’s vision to be a leading health product supplier in Egypt and the MENA region.",
+    video: "https://www.youtube.com/embed/3yU029GUWeY?si=t7kzaOCTVNAGaXaK",
+    stack: [
+      { name: "Next.js" },
+      { name: "Payload CMS" },
+      { name: "Tailwind CSS" },
+    ],
+    github: "https://github.com/hossamelsahafy/Novo",
+    live: "https://novoeg.co/en",
+  },
 ];
 
 const Work = () => {
