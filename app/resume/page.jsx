@@ -139,9 +139,15 @@ const Experience = {
     },
     {
       project: "Novo",
-      image: "Novo.png",
+      image: "Novo.jpg",
       des: "An e-commerce application dedicated to selling pharmaceutical products. The platform provides users with an easy way to browse and order medicines.",
-      link: "http://207.180.244.181:7000/en",
+      link: "https://novoeg.co/en",
+    },
+    {
+      project: "BC Pharma",
+      image: "bc_pharma.png",
+      des: "A full-stack application focused on animal health. Built with Next.js, Payload CMS, and enhanced with Framer Motion animations, it allows users to send inquiries via email to get the information they need.",
+      link: "https://best-choice-pharma.com/",
     },
   ],
 };

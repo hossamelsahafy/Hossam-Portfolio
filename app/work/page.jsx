@@ -85,6 +85,21 @@ const projects = [
     github: "https://github.com/hossamelsahafy/Novo",
     live: "https://novoeg.co/en",
   },
+  {
+    num: "06",
+    category: "Fullstack",
+    title: "BC Pharma",
+    description:
+      "BC Pharma is a full-stack web application focused on animal health. Built using Next.js and Payload CMS, the platform provides businesses and individuals with essential information about animal care. Users can easily send inquiries via email directly through the website to get the information they need. The app is built in English only, with smooth, modern animations powered by Framer Motion to enhance the user experience. Fast, responsive, and reliable — designed to support the animal health industry with accessible digital solutions.",
+    video: "https://www.youtube.com/embed/LNBt3oIwCqs?si=i1Ss4j0xHt1IUDWY",
+    stack: [
+      { name: "Next.js" },
+      { name: "Payload CMS" },
+      { name: "Framer Motion" },
+    ],
+    github: "https://github.com/hossamelsahafy/bc_pharma",
+    live: "https://best-choice-pharma.com/",
+  },
 ];
 
 const Work = () => {
