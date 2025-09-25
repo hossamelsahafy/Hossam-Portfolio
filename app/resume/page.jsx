@@ -145,7 +145,7 @@ const Experience = {
     },
     {
       project: "BC Pharma",
-      image: "bc_pharma.png",
+      image: "bc_pharma.jpg",
       des: "A full-stack application focused on animal health. Built with Next.js, Payload CMS, and enhanced with Framer Motion animations, it allows users to send inquiries via email to get the information they need.",
       link: "https://best-choice-pharma.com/",
     },
