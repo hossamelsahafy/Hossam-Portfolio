@@ -149,6 +149,12 @@ const Experience = {
       des: "A full-stack application focused on animal health. Built with Next.js, Payload CMS, and enhanced with Framer Motion animations, it allows users to send inquiries via email to get the information they need.",
       link: "https://best-choice-pharma.com/",
     },
+    {
+      project: "Rehla Marketing",
+      image: "Rehla.jpg",
+      des: "A digital marketing agency helping brands grow through creative campaigns, data-driven strategies, and innovative solutions across marketing, branding, advertising, content, analytics, and software development.",
+      link: "https://best-choice-pharma.com/",
+    },
   ],
 };
 
@@ -281,7 +287,7 @@ const Resume = () => {
                     {Experience.projects.map((proj, idx) => (
                       <div
                         key={idx}
-                        className="bg-[#2323] p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 border border-white/10"
+                        className="bg-[#2323] flex flex-col p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 border border-white/10"
                       >
                         <h4 className="text-xl font-semibold text-white mb-2">
                           {proj.project}
@@ -298,7 +304,7 @@ const Resume = () => {
                             href={proj.link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-block text-sm transition-all font-bold duration-300 hover:text-[#00FF99]"
+                            className="inline-block text-sm transition-all mt-auto font-bold duration-300 hover:text-[#00FF99]"
                           >
                             Visit Project
                           </a>
