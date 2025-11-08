@@ -28,7 +28,6 @@ const projects = [
       { name: "React" },
       { name: "MongoDB" },
     ],
-    // image: { pOne, pTwo, pThree, pAppetizers, pFour, pFive, pSix },
     github: "https://github.com/Wessam18/PizzaHub",
     live: "",
   },
@@ -100,6 +99,21 @@ const projects = [
     github: "https://github.com/hossamelsahafy/bc_pharma",
     live: "https://best-choice-pharma.com/",
   },
+  {
+    num: "07",
+    category: "Fullstack",
+    title: "Rehla Marketing",
+    description:
+      "Rehla Marketing is a full-stack digital marketing platform dedicated to helping brands thrive in the modern digital landscape. Built with Next.js and powered by Payload CMS, the platform showcases Rehla’s expertise in marketing, branding, advertising, content creation, analytics, and custom software development. Businesses can easily connect with the team through integrated inquiry forms and explore tailored digital solutions designed to elevate their brand presence. Featuring smooth, modern animations with Framer Motion, the site delivers a fast, responsive, and immersive experience a reflection of Rehla’s commitment to innovation and results-driven marketing",
+    video: "https://www.youtube.com/embed/ZHFTGtwLwTk?si=HgxjxNPvfW1D8_4X",
+    stack: [
+      { name: "Next.js" },
+      { name: "Payload CMS" },
+      { name: "Framer Motion" },
+    ],
+    github: "https://github.com/hossamelsahafy/Rehla",
+    live: "https://rehlamarketing.com/",
+  },
 ];
 
 const Work = () => {
@@ -110,16 +124,17 @@ const Work = () => {
   };
   const videoRefs = useRef([]);
 
-  const handleVideoPlay = (currentIndex) => {
-    videoRefs.current.forEach((iframe, index) => {
-      if (index !== currentIndex && iframe) {
-        iframe.contentWindow.postMessage(
+  const pauseAllVideos = () => {
+    videoRefs.current.forEach((iframe) => {
+      if (iframe?.src?.includes("youtube.com/embed")) {
+        iframe.contentWindow?.postMessage(
           '{"event":"command","func":"pauseVideo","args":""}',
           "*"
         );
       }
     });
   };
+
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -189,19 +204,21 @@ const Work = () => {
               spaceBetween={30}
               slidesPerView={1}
               className="xl-[520px] mb-12"
-              onSlideChange={handleSlideChange}
+              onSlideChange={(swiper) => {
+                handleSlideChange(swiper);
+                pauseAllVideos();
+              }}
             >
               {projects.map((project, index) => {
                 return (
                   <SwiperSlide key={index} className="w-full">
                     <div className="h-[460px] xl:h-[670px] md:h-[500px] relative group flex justify-center items-center bg-primary rounded-[8px] overflow-hidden">
-                      <div className="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-50 transition duration-300 z-10 pointer-events-none rounded-[8px]"></div>
-
-                      <div className="relative w-full h-full">
+                      <div className="relative w-full h-full z-20">
                         <iframe
-                          src={project.video}
-                          className="w-full h-full pointer-events-auto rounded-[8px]"
-                          frameBorder="0"
+                          src={`${project.video}${
+                            project.video.includes("?") ? "&" : "?"
+                          }enablejsapi=1`}
+                          className="w-full h-full rounded-[8px] z-50"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowFullScreen
                           style={{
@@ -209,7 +226,15 @@ const Work = () => {
                             width: "100%",
                             height: "100%",
                           }}
-                          onPlay={() => handleVideoPlay(index)}
+                          ref={(el) => (videoRefs.current[index] = el)}
+                          onLoad={() =>
+                            videoRefs.current[
+                              index
+                            ]?.contentWindow?.postMessage(
+                              '{"event":"listening","id":1}',
+                              "*"
+                            )
+                          }
                         ></iframe>
                       </div>
                     </div>
@@ -217,8 +242,8 @@ const Work = () => {
                 );
               })}
               <WorkSliderBtns
-                containerStyles="flex items-center absolute top-1/2 -translate-y-1/2 w-full justify-between px-4 z-20"
-                btnStyles="p-3 rounded-full shadow-md hover:scale-105 transition"
+                containerStyles="flex items-center absolute inset-0 justify-between px-4 z-20 pointer-events-none"
+                btnStyles="p-3 rounded-full shadow-md hover:scale-105 transition pointer-events-auto"
                 iconStyles="text-white w-6 h-6"
               />
             </Swiper>
