@@ -153,7 +153,7 @@ const Experience = {
       project: "Rehla Marketing",
       image: "Rehla.jpg",
       des: "A digital marketing agency helping brands grow through creative campaigns, data-driven strategies, and innovative solutions across marketing, branding, advertising, content, analytics, and software development.",
-      link: "https://best-choice-pharma.com/",
+      link: "https://rehlamarketing.com/en",
     },
   ],
 };
