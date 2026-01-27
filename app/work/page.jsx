@@ -17,75 +17,22 @@ import WorkSliderBtns from "@/components/workSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "Full-Stack",
-    title: "PizzaHub",
+    category: "Fullstack",
+    title: "Rehla Marketing",
     description:
-      "Developed a full-stack pizza delivery app using the MERN stack. I handled user authentication and authorization with JSON Web Tokens (JWT) to ensure security. Implemented email notifications, including password recovery and resending verification emails, allowing users to manage their accounts. Worked on key features like the menu page, signup, login, and user profile updates, creating a seamless experience for customers",
-    video: "https://www.youtube.com/embed/Co7ECRWMU9k",
-    stack: [
-      { name: "TypeScript" },
-      { name: "Express" },
-      { name: "React" },
-      { name: "MongoDB" },
-    ],
-    github: "https://github.com/Wessam18/PizzaHub",
-    live: "",
-  },
-  {
-    num: "02",
-    category: "Full-Stack",
-    title: "CareClinic",
-    description:
-      "Care Clinic is an appointment management system streamlining patient-doctor scheduling in clinics. I developed the Admin Dashboard, enabling management of doctors, departments, and appointments. Key features include CRUD operations for doctor profiles, department organization, appointment tracking, email notifications, and authentication with OAuth (Google, Facebook). The system also supports user sign-out, enhancing security and accessibility",
-    video: "https://www.youtube.com/embed/XT47il8ANUI",
-    stack: [
-      { name: "NodeJs" },
-      { name: "Express" },
-      { name: "React" },
-      { name: "MongoDB" },
-    ],
-    github: "https://github.com/MoSalem149/care-clinics",
-    live: "",
-  },
-  {
-    num: "03",
-    category: "Full-Stack",
-    title: "GigaByte-Damietta",
-    description:
-      "GigaByte-Damietta is a full-stack e-commerce platform built with Next.js and Payload CMS. The application allows users to browse products, add them to the cart, and complete purchases. The admin panel provides the ability to manage collections, add products, and view orders. Key features include a streamlined checkout process, user authentication with OAuth (Google), and dynamic product management. The system also integrates Cloudinary for media hosting and allows admins to easily manage product images.",
-    video: "https://www.youtube.com/embed/D_2owbb-vew",
-    stack: [{ name: "Next.js" }, { name: "Payload CMS" }, { name: "MongoDB" }],
-    github: "https://github.com/hossamelsahafy/GigaByte",
-    live: "https://gb-d.vercel.app",
-  },
-  {
-    num: "04",
-    category: "Frontend",
-    title: "Art Packaging",
-    description:
-      "Art Packaging is a multilingual, responsive frontend web application built using Next.js and Tailwind CSS. Designed for a small business selling handmade products, the app supports both English and Arabic for a broader audience reach. It features a clean, modern interface to showcase products, and allows users to place orders directly via WhatsApp. The system integrates Payload CMS to give admins a user-friendly dashboard for managing product listings. Lightweight, fast, and simple — ideal for small-scale e-commerce needs.",
-    video: "https://www.youtube.com/embed/KBpDcjDqgfc?si=AjfSCkxx45J98UAB",
-    stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }],
-    github: "https://github.com/hossamelsahafy/art_packaging",
-    live: "https://art.mohsinalbasalah.com/en",
-  },
-  {
-    num: "05",
-    category: "Full-Stack",
-    title: "NovoApp",
-    description:
-      "NovoApp is a bilingual, responsive frontend web application built with Next.js, Payload CMS, and Tailwind CSS. Designed for Interpharma Corporation (IPC), the platform promotes health and wellness through probiotics and innovative veterinary solutions. Supporting both Arabic and English, the site delivers a seamless user experience with optimized SEO and fast performance. It features informative sections like About Us, Products, Careers, Articles, and Contact, while also offering newsletter subscriptions and dynamic content management via Payload CMS. NovoApp reflects IPC’s vision to be a leading health product supplier in Egypt and the MENA region.",
-    video: "https://www.youtube.com/embed/3yU029GUWeY?si=t7kzaOCTVNAGaXaK",
+      "Rehla Marketing is a full-stack digital marketing platform dedicated to helping brands thrive in the modern digital landscape. Built with Next.js and powered by Payload CMS, the platform showcases Rehla’s expertise in marketing, branding, advertising, content creation, analytics, and custom software development. Businesses can easily connect with the team through integrated inquiry forms and explore tailored digital solutions designed to elevate their brand presence. Featuring smooth, modern animations with Framer Motion, the site delivers a fast, responsive, and immersive experience a reflection of Rehla’s commitment to innovation and results-driven marketing",
+    video: "https://www.youtube.com/embed/ZHFTGtwLwTk?si=HgxjxNPvfW1D8_4X",
     stack: [
       { name: "Next.js" },
       { name: "Payload CMS" },
-      { name: "Tailwind CSS" },
+      { name: "Framer Motion" },
     ],
-    github: "https://github.com/hossamelsahafy/Novo",
-    live: "https://novoeg.co/en",
+    github: "https://github.com/hossamelsahafy/Rehla",
+    live: "https://rehlamarketing.com/",
   },
+
   {
-    num: "06",
+    num: "02",
     category: "Fullstack",
     title: "BC Pharma",
     description:
@@ -100,22 +47,7 @@ const projects = [
     live: "https://best-choice-pharma.com/",
   },
   {
-    num: "07",
-    category: "Fullstack",
-    title: "Rehla Marketing",
-    description:
-      "Rehla Marketing is a full-stack digital marketing platform dedicated to helping brands thrive in the modern digital landscape. Built with Next.js and powered by Payload CMS, the platform showcases Rehla’s expertise in marketing, branding, advertising, content creation, analytics, and custom software development. Businesses can easily connect with the team through integrated inquiry forms and explore tailored digital solutions designed to elevate their brand presence. Featuring smooth, modern animations with Framer Motion, the site delivers a fast, responsive, and immersive experience a reflection of Rehla’s commitment to innovation and results-driven marketing",
-    video: "https://www.youtube.com/embed/ZHFTGtwLwTk?si=HgxjxNPvfW1D8_4X",
-    stack: [
-      { name: "Next.js" },
-      { name: "Payload CMS" },
-      { name: "Framer Motion" },
-    ],
-    github: "https://github.com/hossamelsahafy/Rehla",
-    live: "https://rehlamarketing.com/",
-  },
-  {
-    num: "08",
+    num: "03",
     category: "Fullstack",
     title: "Shadows",
     description:
@@ -128,6 +60,79 @@ const projects = [
     ],
     github: "https://github.com/hossamelsahafy/Shadows.git",
     live: "https://shadows-navy.vercel.app/en",
+  },
+  {
+    num: "04",
+    category: "Full-Stack",
+    title: "NovoApp",
+    description:
+      "NovoApp is a bilingual, responsive frontend web application built with Next.js, Payload CMS, and Tailwind CSS. Designed for Interpharma Corporation (IPC), the platform promotes health and wellness through probiotics and innovative veterinary solutions. Supporting both Arabic and English, the site delivers a seamless user experience with optimized SEO and fast performance. It features informative sections like About Us, Products, Careers, Articles, and Contact, while also offering newsletter subscriptions and dynamic content management via Payload CMS. NovoApp reflects IPC’s vision to be a leading health product supplier in Egypt and the MENA region.",
+    video: "https://www.youtube.com/embed/3yU029GUWeY?si=t7kzaOCTVNAGaXaK",
+    stack: [
+      { name: "Next.js" },
+      { name: "Payload CMS" },
+      { name: "Tailwind CSS" },
+    ],
+    github: "https://github.com/hossamelsahafy/Novo",
+    live: "https://novo-orcin-alpha.vercel.app/en",
+  },
+
+  {
+    num: "05",
+    category: "Full-Stack",
+    title: "GigaByte-Damietta",
+    description:
+      "GigaByte-Damietta is a full-stack e-commerce platform built with Next.js and Payload CMS. The application allows users to browse products, add them to the cart, and complete purchases. The admin panel provides the ability to manage collections, add products, and view orders. Key features include a streamlined checkout process, user authentication with OAuth (Google), and dynamic product management. The system also integrates Cloudinary for media hosting and allows admins to easily manage product images.",
+    video: "https://www.youtube.com/embed/D_2owbb-vew",
+    stack: [{ name: "Next.js" }, { name: "Payload CMS" }, { name: "MongoDB" }],
+    github: "https://github.com/hossamelsahafy/GigaByte",
+    live: "https://gb-d.vercel.app",
+  },
+
+  {
+    num: "06",
+    category: "Frontend",
+    title: "Art Packaging",
+    description:
+      "Art Packaging is a multilingual, responsive frontend web application built using Next.js and Tailwind CSS. Designed for a small business selling handmade products, the app supports both English and Arabic for a broader audience reach. It features a clean, modern interface to showcase products, and allows users to place orders directly via WhatsApp. The system integrates Payload CMS to give admins a user-friendly dashboard for managing product listings. Lightweight, fast, and simple — ideal for small-scale e-commerce needs.",
+    video: "https://www.youtube.com/embed/KBpDcjDqgfc?si=AjfSCkxx45J98UAB",
+    stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }],
+    github: "https://github.com/hossamelsahafy/art_packaging",
+    live: "https://artpackaging.com.sa/en",
+  },
+
+  {
+    num: "07",
+    category: "Full-Stack",
+    title: "CareClinic",
+    description:
+      "Care Clinic is an appointment management system streamlining patient-doctor scheduling in clinics. I developed the Admin Dashboard, enabling management of doctors, departments, and appointments. Key features include CRUD operations for doctor profiles, department organization, appointment tracking, email notifications, and authentication with OAuth (Google, Facebook). The system also supports user sign-out, enhancing security and accessibility",
+    video: "https://www.youtube.com/embed/XT47il8ANUI",
+    stack: [
+      { name: "NodeJs" },
+      { name: "Express" },
+      { name: "React" },
+      { name: "MongoDB" },
+    ],
+    github: "https://github.com/MoSalem149/care-clinics",
+    live: "",
+  },
+
+  {
+    num: "08",
+    category: "Full-Stack",
+    title: "PizzaHub",
+    description:
+      "Developed a full-stack pizza delivery app using the MERN stack. I handled user authentication and authorization with JSON Web Tokens (JWT) to ensure security. Implemented email notifications, including password recovery and resending verification emails, allowing users to manage their accounts. Worked on key features like the menu page, signup, login, and user profile updates, creating a seamless experience for customers",
+    video: "https://www.youtube.com/embed/Co7ECRWMU9k",
+    stack: [
+      { name: "TypeScript" },
+      { name: "Express" },
+      { name: "React" },
+      { name: "MongoDB" },
+    ],
+    github: "https://github.com/hossamelsahafy/PizzaHub.git",
+    live: "",
   },
 ];
 
