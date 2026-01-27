@@ -126,18 +126,6 @@ const Experience = {
   des: "This experience was gained through freelance work and during my time working as a freelance developer with ByteForce Company.",
   projects: [
     {
-      project: "GigaByte Damietta",
-      image: "GigaByte.png",
-      des: "An e-commerce application focused on selling computer components, accessories, and laptops. Built with a clean user interface to provide a smooth shopping experience.",
-      link: "https://gb-d.vercel.app/",
-    },
-    {
-      project: "Art Packaging",
-      image: "Art.png",
-      des: "A simple e-commerce platform showcasing the owner's products. To place an order, users can directly contact the seller via WhatsApp for a more personal buying experience.",
-      link: "https://artpackaging.com.sa/en",
-    },
-    {
       project: "Rehla Marketing",
       image: "Rehla.jpg",
       des: "A digital marketing agency helping brands grow through creative campaigns, data-driven strategies, and innovative solutions across marketing, branding, advertising, content, analytics, and software development.",
@@ -160,6 +148,18 @@ const Experience = {
       image: "bc_pharma.jpg",
       des: "A full-stack application focused on animal health. Built with Next.js, Payload CMS, and enhanced with Framer Motion animations, it allows users to send inquiries via email to get the information they need.",
       link: "https://best-choice-pharma.com/",
+    },
+    {
+      project: "GigaByte Damietta",
+      image: "GigaByte.png",
+      des: "An e-commerce application focused on selling computer components, accessories, and laptops. Built with a clean user interface to provide a smooth shopping experience.",
+      link: "https://gb-d.vercel.app/",
+    },
+    {
+      project: "Art Packaging",
+      image: "Art.png",
+      des: "A simple e-commerce platform showcasing the owner's products. To place an order, users can directly contact the seller via WhatsApp for a more personal buying experience.",
+      link: "https://artpackaging.com.sa/en",
     },
   ],
 };
