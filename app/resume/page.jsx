@@ -135,7 +135,7 @@ const Experience = {
       project: "Art Packaging",
       image: "Art.png",
       des: "A simple e-commerce platform showcasing the owner's products. To place an order, users can directly contact the seller via WhatsApp for a more personal buying experience.",
-      link: "https://art.mohsinalbasalah.com/en",
+      link: "https://artpackaging.com.sa/en",
     },
     {
       project: "Novo",
@@ -284,8 +284,7 @@ const Resume = () => {
                   {Experience.des}
                 </p>
 
-                <ScrollArea className="h-[400px]">
-                  {/* Project cards */}
+                <ScrollArea className="h-[500px]">
                   <div className="grid grid-cols-1 mb-4 md:grid-cols-2 gap-6 max-w-[900px] mx-auto xl:mx-0">
                     {Experience.projects.map((proj, idx) => (
                       <div
