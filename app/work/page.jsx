@@ -114,6 +114,21 @@ const projects = [
     github: "https://github.com/hossamelsahafy/Rehla",
     live: "https://rehlamarketing.com/",
   },
+  {
+    num: "08",
+    category: "Fullstack",
+    title: "Shadows",
+    description:
+      "Shadows E-commerce is a modern full-stack shopping platform built to deliver fast, secure, and immersive online shopping experiences. Built with Next.js and powered by Payload CMS, the app demonstrates expertise in e-commerce workflows, admin customization, authentication, and dynamic content management. Customers can browse products, manage carts, and complete checkout securely with JWT-based authentication and email verification, while admins control shipping costs, products, and orders from a centralized dashboard. Featuring smooth, modern animations with Framer Motion, the site offers a responsive, engaging experience that reflects Shadows’ commitment to innovation and real-world commerce.",
+    video: "https://www.youtube.com/embed/Cnhy2LTvA90?si=f9k8u1NrV_gSmcFm",
+    stack: [
+      { name: "Next.js" },
+      { name: "Payload CMS" },
+      { name: "Framer Motion" },
+    ],
+    github: "https://github.com/hossamelsahafy/Shadows.git",
+    live: "https://shadows-navy.vercel.app/en",
+  },
 ];
 
 const Work = () => {
@@ -129,7 +144,7 @@ const Work = () => {
       if (iframe?.src?.includes("youtube.com/embed")) {
         iframe.contentWindow?.postMessage(
           '{"event":"command","func":"pauseVideo","args":""}',
-          "*"
+          "*",
         );
       }
     });
@@ -232,7 +247,7 @@ const Work = () => {
                               index
                             ]?.contentWindow?.postMessage(
                               '{"event":"listening","id":1}',
-                              "*"
+                              "*",
                             )
                           }
                         ></iframe>

@@ -141,7 +141,7 @@ const Experience = {
       project: "Novo",
       image: "Novo.jpg",
       des: "An e-commerce application dedicated to selling pharmaceutical products. The platform provides users with an easy way to browse and order medicines.",
-      link: "https://novoeg.co/en",
+      link: "https://novo-orcin-alpha.vercel.app/en",
     },
     {
       project: "BC Pharma",
@@ -154,6 +154,12 @@ const Experience = {
       image: "Rehla.jpg",
       des: "A digital marketing agency helping brands grow through creative campaigns, data-driven strategies, and innovative solutions across marketing, branding, advertising, content, analytics, and software development.",
       link: "https://rehlamarketing.com/en",
+    },
+    {
+      project: "Shadows",
+      image: "Shadows.png",
+      des: "A modern e-commerce web app built with Next.js, Payload CMS, and Framer Motion, designed to deliver smooth animations, secure authentication, and scalable admin workflows across product management, cart & checkout, multi-language support, and order processing.",
+      link: "https://shadows-navy.vercel.app/en",
     },
   ],
 };
@@ -194,7 +200,6 @@ const Resume = () => {
                           key={index}
                           className="bg-[#2323] h-auto py-6 px-10 rounded-xl flex flex-col justify-between gap-4 md:px-6 md:py-5"
                         >
-                          {/* Top Section: Duration and Description */}
                           <div className="flex flex-wrap justify-between items-center w-full">
                             <span className="text-sm text-gray-400 whitespace-nowrap md:text-xs">
                               {edu.duration}
@@ -204,9 +209,7 @@ const Resume = () => {
                             </h3>
                           </div>
 
-                          {/* Bottom Section: Name and Grade */}
                           <div className="mt-3 flex flex-wrap justify-between items-start w-full gap-2">
-                            {/* Name with Split on Comma */}
                             <p className="text-sm lg:text-base font-bold text-white/80 md:text-sm">
                               {typeof window !== "undefined" &&
                               window.innerWidth >= 768 &&
