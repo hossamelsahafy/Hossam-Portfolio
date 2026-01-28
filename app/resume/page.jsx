@@ -132,6 +132,13 @@ const Experience = {
       link: "https://rehlamarketing.com/en",
     },
     {
+      project: "Business Partners",
+      image: "Buis.png",
+      des: "A company portfolio platform with an integrated admin dashboard, built using Next.js and Payload CMS to manage content, showcase projects, and streamline business operations.",
+      link: "https://business-partners-web.vercel.app/en",
+    },
+
+    {
       project: "Shadows",
       image: "Shadows.png",
       des: "A modern e-commerce web app built with Next.js, Payload CMS, and Framer Motion, designed to deliver smooth animations, secure authentication, and scalable admin workflows across product management, cart & checkout, multi-language support, and order processing.",
