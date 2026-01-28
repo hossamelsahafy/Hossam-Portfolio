@@ -30,13 +30,27 @@ const projects = [
     github: "https://github.com/hossamelsahafy/Rehla",
     live: "https://rehlamarketing.com/",
   },
-
   {
     num: "02",
     category: "Fullstack",
+    title: "Business Partners",
+    description:
+      "Business Partners is a full-stack company portfolio web application designed to showcase services, projects, and business expertise in a professional and modern way. Built using Next.js and Payload CMS, the platform provides companies with a flexible admin dashboard to manage content, update projects, and control business information with ease. The app is built in English only, with smooth and modern UI animations to enhance the overall user experience. Fast, responsive, and scalable, Business Partners is designed to help businesses build a strong digital presence with a reliable and easy-to-manage content management system",
+    video: "https://www.youtube.com/embed/TOwdhgf04s4?si=EJupz2_1IdRepZ-R",
+    stack: [
+      { name: "Next.js" },
+      { name: "Payload CMS" },
+      { name: "Framer Motion" },
+    ],
+    github: "https://github.com/hossamelsahafy/BusinessPartners.git",
+    live: "https://business-partners-web.vercel.app/en",
+  },
+  {
+    num: "03",
+    category: "Fullstack",
     title: "BC Pharma",
     description:
-      "BC Pharma is a full-stack web application focused on animal health. Built using Next.js and Payload CMS, the platform provides businesses and individuals with essential information about animal care. Users can easily send inquiries via email directly through the website to get the information they need. The app is built in English only, with smooth, modern animations powered by Framer Motion to enhance the user experience. Fast, responsive, and reliable designed to support the animal health industry with accessible digital solutions.",
+      "BC Pharma is a full-stack web application focused on animal health. Built using Next.js and Payload CMS, the platform provides businesses and individuals with essential information about animal care. Users can easily send inquiries via email directly through the website to get the information they need. The app is built in English only, with smooth, modern animations powered by Framer Motion to enhance the user experience. Fast, responsive, and reliable designed to support the animal health industry with accessible digital solutions",
     video: "https://www.youtube.com/embed/LNBt3oIwCqs?si=i1Ss4j0xHt1IUDWY",
     stack: [
       { name: "Next.js" },
@@ -47,11 +61,11 @@ const projects = [
     live: "https://best-choice-pharma.com/",
   },
   {
-    num: "03",
+    num: "04",
     category: "Fullstack",
     title: "Shadows",
     description:
-      "Shadows E-commerce is a modern full-stack shopping platform built to deliver fast, secure, and immersive online shopping experiences. Built with Next.js and powered by Payload CMS, the app demonstrates expertise in e-commerce workflows, admin customization, authentication, and dynamic content management. Customers can browse products, manage carts, and complete checkout securely with JWT-based authentication and email verification, while admins control shipping costs, products, and orders from a centralized dashboard. Featuring smooth, modern animations with Framer Motion, the site offers a responsive, engaging experience that reflects Shadows’ commitment to innovation and real-world commerce.",
+      "Shadows E-commerce is a modern full-stack shopping platform built to deliver fast, secure, and immersive online shopping experiences. Built with Next.js and powered by Payload CMS, the app demonstrates expertise in e-commerce workflows, admin customization, authentication, and dynamic content management. Customers can browse products, manage carts, and complete checkout securely with JWT-based authentication and email verification, while admins control shipping costs, products, and orders from a centralized dashboard. Featuring smooth, modern animations with Framer Motion, the site offers a responsive, engaging experience that reflects Shadows’ commitment to innovation and real-world commerce",
     video: "https://www.youtube.com/embed/Cnhy2LTvA90?si=f9k8u1NrV_gSmcFm",
     stack: [
       { name: "Next.js" },
@@ -62,11 +76,11 @@ const projects = [
     live: "https://shadows-navy.vercel.app/en",
   },
   {
-    num: "04",
+    num: "05",
     category: "Full-Stack",
     title: "NovoApp",
     description:
-      "NovoApp is a bilingual, responsive frontend web application built with Next.js, Payload CMS, and Tailwind CSS. Designed for Interpharma Corporation (IPC), the platform promotes health and wellness through probiotics and innovative veterinary solutions. Supporting both Arabic and English, the site delivers a seamless user experience with optimized SEO and fast performance. It features informative sections like About Us, Products, Careers, Articles, and Contact, while also offering newsletter subscriptions and dynamic content management via Payload CMS. NovoApp reflects IPC’s vision to be a leading health product supplier in Egypt and the MENA region.",
+      "NovoApp is a bilingual, responsive frontend web application built with Next.js, Payload CMS, and Tailwind CSS. Designed for Interpharma Corporation (IPC), the platform promotes health and wellness through probiotics and innovative veterinary solutions. Supporting both Arabic and English, the site delivers a seamless user experience with optimized SEO and fast performance. It features informative sections like About Us, Products, Careers, Articles, and Contact, while also offering newsletter subscriptions and dynamic content management via Payload CMS. NovoApp reflects IPC’s vision to be a leading health product supplier in Egypt and the MENA region",
     video: "https://www.youtube.com/embed/3yU029GUWeY?si=t7kzaOCTVNAGaXaK",
     stack: [
       { name: "Next.js" },
@@ -78,11 +92,11 @@ const projects = [
   },
 
   {
-    num: "05",
+    num: "06",
     category: "Full-Stack",
     title: "GigaByte-Damietta",
     description:
-      "GigaByte-Damietta is a full-stack e-commerce platform built with Next.js and Payload CMS. The application allows users to browse products, add them to the cart, and complete purchases. The admin panel provides the ability to manage collections, add products, and view orders. Key features include a streamlined checkout process, user authentication with OAuth (Google), and dynamic product management. The system also integrates Cloudinary for media hosting and allows admins to easily manage product images.",
+      "GigaByte-Damietta is a full-stack e-commerce platform built with Next.js and Payload CMS. The application allows users to browse products, add them to the cart, and complete purchases. The admin panel provides the ability to manage collections, add products, and view orders. Key features include a streamlined checkout process, user authentication with OAuth (Google), and dynamic product management. The system also integrates Cloudinary for media hosting and allows admins to easily manage product images",
     video: "https://www.youtube.com/embed/D_2owbb-vew",
     stack: [{ name: "Next.js" }, { name: "Payload CMS" }, { name: "MongoDB" }],
     github: "https://github.com/hossamelsahafy/GigaByte",
@@ -90,11 +104,11 @@ const projects = [
   },
 
   {
-    num: "06",
+    num: "07",
     category: "Frontend",
     title: "Art Packaging",
     description:
-      "Art Packaging is a multilingual, responsive frontend web application built using Next.js and Tailwind CSS. Designed for a small business selling handmade products, the app supports both English and Arabic for a broader audience reach. It features a clean, modern interface to showcase products, and allows users to place orders directly via WhatsApp. The system integrates Payload CMS to give admins a user-friendly dashboard for managing product listings. Lightweight, fast, and simple — ideal for small-scale e-commerce needs.",
+      "Art Packaging is a multilingual, responsive frontend web application built using Next.js and Tailwind CSS. Designed for a small business selling handmade products, the app supports both English and Arabic for a broader audience reach. It features a clean, modern interface to showcase products, and allows users to place orders directly via WhatsApp. The system integrates Payload CMS to give admins a user-friendly dashboard for managing product listings. Lightweight, fast, and simple — ideal for small-scale e-commerce needs",
     video: "https://www.youtube.com/embed/KBpDcjDqgfc?si=AjfSCkxx45J98UAB",
     stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }],
     github: "https://github.com/hossamelsahafy/art_packaging",
@@ -102,7 +116,7 @@ const projects = [
   },
 
   {
-    num: "07",
+    num: "08",
     category: "Full-Stack",
     title: "CareClinic",
     description:
@@ -119,7 +133,7 @@ const projects = [
   },
 
   {
-    num: "08",
+    num: "09",
     category: "Full-Stack",
     title: "PizzaHub",
     description:
