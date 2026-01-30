@@ -126,46 +126,57 @@ const Experience = {
   des: "This experience was gained through freelance work and during my time working as a freelance developer with ByteForce Company.",
   projects: [
     {
+      project: "Yemedia",
+      image: "Yemedia.png",
+      des: "A creative and digital solutions platform presenting Yemedia’s services, vision, and expertise, helping brands build strong identities, boost visibility, and connect effectively with their target audience.",
+      link: "https://yemedia.alizayed.net/en/about-us",
+    },
+    {
+      project: "Real State Website",
+      image: "Real.png",
+      des: "A real estate portfolio platform showcasing diverse property projects, helping clients explore options, compare listings, and make confident buying decisions based on their needs and preferences.",
+      link: "https://real-estate.alizayed.net/en",
+    },
+    {
       project: "Rehla Marketing",
       image: "Rehla.jpg",
-      des: "A digital marketing agency helping brands grow through creative campaigns, data-driven strategies, and innovative solutions across marketing, branding, advertising, content, analytics, and software development.",
+      des: "A digital marketing agency platform helping brands grow through creative campaigns, data-driven strategies, and innovative solutions across marketing, branding, content, analytics, and advertising.",
       link: "https://rehlamarketing.com/en",
     },
     {
       project: "Business Partners",
       image: "Buis.png",
-      des: "A company portfolio platform with an integrated admin dashboard, built using Next.js and Payload CMS to manage content, showcase projects, and streamline business operations.",
+      des: "A company portfolio platform designed to showcase services and projects, featuring an admin dashboard that simplifies content management and supports smooth business operations.",
       link: "https://business-partners-web.vercel.app/en",
     },
-
+    {
+      project: "BC Pharma",
+      image: "bc_pharma.jpg",
+      des: "A full-stack platform focused on animal health products, enabling users to explore offerings and send inquiries via email to receive detailed product information.",
+      link: "https://best-choice-pharma.com/",
+    },
     {
       project: "Shadows",
       image: "Shadows.png",
-      des: "A modern e-commerce web app built with Next.js, Payload CMS, and Framer Motion, designed to deliver smooth animations, secure authentication, and scalable admin workflows across product management, cart & checkout, multi-language support, and order processing.",
+      des: "A modern e-commerce platform built to deliver a smooth shopping experience, featuring secure authentication, product management, multilingual support, and streamlined checkout workflows.",
       link: "https://shadows-navy.vercel.app/en",
     },
     {
       project: "Novo",
       image: "Novo.jpg",
-      des: "An e-commerce application dedicated to selling pharmaceutical products. The platform provides users with an easy way to browse and order medicines.",
+      des: "An e-commerce platform focused on pharmaceutical products, allowing users to easily browse medicines, view details, and place orders through a simple user-friendly interface.",
       link: "https://novo-orcin-alpha.vercel.app/en",
-    },
-    {
-      project: "BC Pharma",
-      image: "bc_pharma.jpg",
-      des: "A full-stack application focused on animal health. Built with Next.js, Payload CMS, and enhanced with Framer Motion animations, it allows users to send inquiries via email to get the information they need.",
-      link: "https://best-choice-pharma.com/",
     },
     {
       project: "GigaByte Damietta",
       image: "GigaByte.png",
-      des: "An e-commerce application focused on selling computer components, accessories, and laptops. Built with a clean user interface to provide a smooth shopping experience.",
+      des: "An e-commerce platform for computer components and accessories, designed to present products clearly and provide users with a smooth and reliable shopping experience.",
       link: "https://gb-d.vercel.app/",
     },
     {
       project: "Art Packaging",
       image: "Art.png",
-      des: "A simple e-commerce platform showcasing the owner's products. To place an order, users can directly contact the seller via WhatsApp for a more personal buying experience.",
+      des: "A product showcase platform for packaging solutions, allowing users to browse available items and place orders directly through WhatsApp for personalized communication.",
       link: "https://artpackaging.com.sa/en",
     },
   ],
@@ -304,7 +315,7 @@ const Resume = () => {
                         <img
                           src={proj.image}
                           alt={proj.project}
-                          className="w-full rounded my-4"
+                          className="w-full h-[370px] object-cover rounded my-4"
                         />
                         <p className="text-white/60 text-sm mb-4">{proj.des}</p>
 
