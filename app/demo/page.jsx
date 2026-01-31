@@ -18,6 +18,36 @@ const projects = [
   {
     num: "01",
     category: "Fullstack",
+    title: "Real State Website",
+    description:
+      "Real State Website is a full-stack real estate portfolio platform designed to showcase commercial and residential projects in a modern, engaging way. Built with Next.js and powered by Payload CMS, the platform highlights property showcases, project details, and visual case studies that help attract potential clients and investors. Visitors can easily explore different real estate categories, view project galleries, and connect with the business through integrated contact forms. Featuring smooth, modern animations with Framer Motion, the site delivers a fast, responsive, and immersive experience that reflects professionalism, trust, and high-quality real estate presentation.",
+    video: "https://www.youtube.com/embed/TJWNW6zUpPU?si=TXvV3iaoqfsIrlal",
+    stack: [
+      { name: "Next.js" },
+      { name: "Payload CMS" },
+      { name: "Framer Motion" },
+    ],
+    github: "https://github.com/hossamelsahafy/Real-State-WebSite.git",
+    live: "https://real-estate.alizayed.net/en",
+  },
+  {
+    num: "02",
+    category: "Fullstack",
+    title: "Yemedia",
+    description:
+      "Yemedia is a full-stack creative and digital solutions platform built to showcase the agency’s services, portfolio, and brand identity in a modern and engaging way. Built with Next.js and powered by Payload CMS, the platform presents Yemedia’s expertise in branding, digital marketing, content creation, media production, and custom software solutions. Visitors can explore the company’s work, learn about its mission and vision, and easily connect with the team through integrated contact and inquiry forms. Featuring smooth, modern animations with Framer Motion, the site delivers a fast, responsive, and immersive experience that reflects Yemedia’s focus on creativity, innovation, and results-driven digital growth.",
+    video: "https://www.youtube.com/embed/clzDHtOu-JU?si=JFSl3nSlqJa_TdFJ",
+    stack: [
+      { name: "Next.js" },
+      { name: "Payload CMS" },
+      { name: "Framer Motion" },
+    ],
+    github: "https://github.com/hossamelsahafy/Yemedia.git",
+    live: "https://yemedia.alizayed.net/en",
+  },
+  {
+    num: "03",
+    category: "Fullstack",
     title: "Rehla Marketing",
     description:
       "Rehla Marketing is a full-stack digital marketing platform dedicated to helping brands thrive in the modern digital landscape. Built with Next.js and powered by Payload CMS, the platform showcases Rehla’s expertise in marketing, branding, advertising, content creation, analytics, and custom software development. Businesses can easily connect with the team through integrated inquiry forms and explore tailored digital solutions designed to elevate their brand presence. Featuring smooth, modern animations with Framer Motion, the site delivers a fast, responsive, and immersive experience a reflection of Rehla’s commitment to innovation and results-driven marketing",
@@ -31,7 +61,7 @@ const projects = [
     live: "https://rehlamarketing.com/",
   },
   {
-    num: "02",
+    num: "04",
     category: "Fullstack",
     title: "Business Partners",
     description:
@@ -46,7 +76,7 @@ const projects = [
     live: "https://business-partners-web.vercel.app/en",
   },
   {
-    num: "03",
+    num: "05",
     category: "Fullstack",
     title: "BC Pharma",
     description:
@@ -61,7 +91,7 @@ const projects = [
     live: "https://best-choice-pharma.com/",
   },
   {
-    num: "04",
+    num: "06",
     category: "Fullstack",
     title: "Shadows",
     description:
@@ -76,7 +106,7 @@ const projects = [
     live: "https://shadows-navy.vercel.app/en",
   },
   {
-    num: "05",
+    num: "07",
     category: "Full-Stack",
     title: "NovoApp",
     description:
@@ -92,7 +122,7 @@ const projects = [
   },
 
   {
-    num: "06",
+    num: "08",
     category: "Full-Stack",
     title: "GigaByte-Damietta",
     description:
@@ -104,7 +134,7 @@ const projects = [
   },
 
   {
-    num: "07",
+    num: "09",
     category: "Frontend",
     title: "Art Packaging",
     description:
@@ -116,7 +146,7 @@ const projects = [
   },
 
   {
-    num: "08",
+    num: "10",
     category: "Full-Stack",
     title: "CareClinic",
     description:
@@ -133,7 +163,7 @@ const projects = [
   },
 
   {
-    num: "09",
+    num: "11",
     category: "Full-Stack",
     title: "PizzaHub",
     description:
