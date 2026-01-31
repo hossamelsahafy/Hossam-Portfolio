@@ -20,7 +20,7 @@ const projects = [
     category: "Fullstack",
     title: "Real State Website",
     description:
-      "Real State Website is a full-stack real estate portfolio platform designed to showcase commercial and residential projects in a modern, engaging way. Built with Next.js and powered by Payload CMS, the platform highlights property showcases, project details, and visual case studies that help attract potential clients and investors. Visitors can easily explore different real estate categories, view project galleries, and connect with the business through integrated contact forms. Featuring smooth, modern animations with Framer Motion, the site delivers a fast, responsive, and immersive experience that reflects professionalism, trust, and high-quality real estate presentation.",
+      "Real State Website is a full-stack real estate portfolio platform designed to showcase commercial and residential projects in a modern, engaging way. Built with Next.js and powered by Payload CMS, the platform highlights property showcases, project details, and visual case studies that help attract potential clients and investors. Visitors can easily explore different real estate categories, view project galleries, and connect with the business through integrated contact forms. Featuring smooth, modern animations with Framer Motion, the site delivers a fast, responsive, and immersive experience that reflects professionalism, trust, and high-quality real estate presentation",
     video: "https://www.youtube.com/embed/TJWNW6zUpPU?si=TXvV3iaoqfsIrlal",
     stack: [
       { name: "Next.js" },
@@ -35,7 +35,7 @@ const projects = [
     category: "Fullstack",
     title: "Yemedia",
     description:
-      "Yemedia is a full-stack creative and digital solutions platform built to showcase the agency’s services, portfolio, and brand identity in a modern and engaging way. Built with Next.js and powered by Payload CMS, the platform presents Yemedia’s expertise in branding, digital marketing, content creation, media production, and custom software solutions. Visitors can explore the company’s work, learn about its mission and vision, and easily connect with the team through integrated contact and inquiry forms. Featuring smooth, modern animations with Framer Motion, the site delivers a fast, responsive, and immersive experience that reflects Yemedia’s focus on creativity, innovation, and results-driven digital growth.",
+      "Yemedia is a full-stack creative and digital solutions platform built to showcase the agency’s services, portfolio, and brand identity in a modern and engaging way. Built with Next.js and powered by Payload CMS, the platform presents Yemedia’s expertise in branding, digital marketing, content creation, media production, and custom software solutions. Visitors can explore the company’s work, learn about its mission and vision, and easily connect with the team through integrated contact and inquiry forms. Featuring smooth, modern animations with Framer Motion, the site delivers a fast, responsive, and immersive experience that reflects Yemedia’s focus on creativity, innovation, and results-driven digital growth",
     video: "https://www.youtube.com/embed/clzDHtOu-JU?si=JFSl3nSlqJa_TdFJ",
     stack: [
       { name: "Next.js" },
