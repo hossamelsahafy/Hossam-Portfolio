@@ -16,7 +16,7 @@ const Stats = () => {
     setHydrated(true);
     const fetchCommits = async () => {
       const res = await fetch(
-        `https://github-invite-bot.vercel.app/api/git-commits`,
+        `https://github-invite-bot.vercel.app/git-commits`,
       );
       const data = await res.json();
       setTotalCommits(data.totalCommits);
