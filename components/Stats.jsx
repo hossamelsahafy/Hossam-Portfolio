@@ -26,11 +26,10 @@ const Stats = () => {
         }
 
         const data = await res.json();
-        console.log("GitHub commits data:", data);
         setTotalCommits(data.totalCommits);
       } catch (err) {
         console.error("Failed to fetch commits:", err);
-        setTotalCommits(0); // fallback
+        setTotalCommits(0);
       }
     };
 
