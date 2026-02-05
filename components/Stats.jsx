@@ -14,12 +14,24 @@ const Stats = () => {
 
   useEffect(() => {
     setHydrated(true);
+
     const fetchCommits = async () => {
-      const res = await fetch(
-        `https://github-invite-bot.vercel.app/api/git-commits`,
-      );
-      const data = await res.json();
-      setTotalCommits(data.totalCommits);
+      try {
+        const res = await fetch(
+          "https://github-invite-bot.vercel.app/api/git-commits",
+        );
+
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+
+        const data = await res.json();
+        console.log("GitHub commits data:", data);
+        setTotalCommits(data.totalCommits);
+      } catch (err) {
+        console.error("Failed to fetch commits:", err);
+        setTotalCommits(0); // fallback
+      }
     };
 
     fetchCommits();
