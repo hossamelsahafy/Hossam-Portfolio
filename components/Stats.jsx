@@ -19,14 +19,11 @@ const Stats = () => {
         `https://github-invite-bot.vercel.app/api/github-total-commits`,
       );
       const data = await res.json();
-      console.log(data);
-
       setTotalCommits(data.totalCommits);
     };
 
     fetchCommits();
   }, []);
-  console.log(totalCommits);
 
   return (
     <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">
