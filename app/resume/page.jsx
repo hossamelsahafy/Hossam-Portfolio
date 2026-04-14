@@ -134,14 +134,14 @@ const Experience = {
     {
       project: "Real State Website",
       image: "Real.png",
-      des: "A real estate portfolio platform showcasing diverse property projects, helping clients explore options, compare listings, and make confident buying decisions based on their needs and preferences.",
+      des: "A real estate portfolio platform showcasing diverse property projects, helping clients explore options, and make confident buying decisions based on their needs and preferences.",
       link: "https://real-estate.alizayed.net/en",
     },
     {
       project: "Rehla Marketing",
       image: "Rehla.jpg",
       des: "A digital marketing agency platform helping brands grow through creative campaigns, data-driven strategies, and innovative solutions across marketing, branding, content, analytics, and advertising.",
-      link: "https://rehlamarketing.com/en",
+      link: "https://rehla-lovat.vercel.app/en",
     },
     {
       project: "Business Partners",
