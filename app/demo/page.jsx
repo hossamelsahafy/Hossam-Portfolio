@@ -28,7 +28,7 @@ const projects = [
       { name: "Framer Motion" },
     ],
     github: "https://github.com/hossamelsahafy/Real-State-WebSite.git",
-    live: "https://real-estate.alizayed.net/en",
+    live: "https://real-estate-website-r21y.vercel.app/en",
   },
   {
     num: "02",
@@ -43,7 +43,7 @@ const projects = [
       { name: "Framer Motion" },
     ],
     github: "https://github.com/hossamelsahafy/Yemedia.git",
-    live: "https://yemedia.alizayed.net/en",
+    live: "https://yemedia.vercel.app/en",
   },
   {
     num: "03",
@@ -58,7 +58,7 @@ const projects = [
       { name: "Framer Motion" },
     ],
     github: "https://github.com/hossamelsahafy/Rehla",
-    live: "https://rehlamarketing.com/",
+    live: "https://rehla-lovat.vercel.app/en",
   },
   {
     num: "04",
