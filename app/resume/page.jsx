@@ -129,7 +129,7 @@ const Experience = {
       project: "Yemedia",
       image: "Yemedia.png",
       des: "A creative and digital solutions platform presenting Yemedia’s services, vision, and expertise, helping brands build strong identities, boost visibility, and connect effectively with their target audience.",
-      link: "https://yemedia.alizayed.net/en/about-us",
+      link: "https://yemedia.vercel.app/en",
     },
     {
       project: "Real State Website",
