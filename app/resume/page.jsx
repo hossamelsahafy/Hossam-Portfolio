@@ -130,6 +130,12 @@ const Experience = {
   des: "This experience was gained through freelance work and during my time working as a freelance developer with ByteForce Company.",
   projects: [
     {
+      project: "Coffee & Tea",
+      image: "Coffee&Tea.png",
+      des: "A dynamic e-commerce platform built with modern technologies, featuring multilingual support, multi-currency payments, product management, secure authentication, and streamlined checkout workflows.",
+      link: "https://coffee-and-tea.vercel.app/en",
+    },
+    {
       project: "Yemedia",
       image: "Yemedia.png",
       des: "A creative and digital solutions platform presenting Yemedia’s services, vision, and expertise, helping brands build strong identities, boost visibility, and connect effectively with their target audience.",
@@ -165,6 +171,7 @@ const Experience = {
       des: "A modern e-commerce platform built to deliver a smooth shopping experience, featuring secure authentication, product management, multilingual support, and streamlined checkout workflows.",
       link: "https://shadows-navy.vercel.app/en",
     },
+
     {
       project: "Novo",
       image: "Novo.jpg",
