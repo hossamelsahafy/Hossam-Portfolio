@@ -7,7 +7,7 @@ import {
   FaNode,
   FaPython,
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiPayloadcms } from "react-icons/si";
 import {
   Tooltip,
   TooltipContent,
@@ -110,6 +110,10 @@ const Skills = {
     {
       icon: <SiTailwindcss />,
       name: "tailwind.css",
+    },
+    {
+      icon: <SiPayloadcms />,
+      name: "payload cms",
     },
     {
       icon: <FaNode />,
