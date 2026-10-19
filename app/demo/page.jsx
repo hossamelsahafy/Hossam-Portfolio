@@ -18,6 +18,24 @@ const projects = [
   {
     num: "01",
     category: "Fullstack",
+    title: "Coffee & Tea E-Commerce Website",
+    description:
+      "Coffee & Tea is a full-stack e-commerce platform designed to deliver a modern, seamless online shopping experience. Built with Next.js and powered by Payload CMS, the platform features dynamic product management, customizable website content, and a comprehensive admin dashboard. Customers can explore products, filter categories, manage carts and favorites, and place orders through Stripe or cash on delivery. Featuring English and Arabic localization, multi-currency support, secure authentication, real-time order updates, and responsive layouts, the platform delivers a flexible, fully functional shopping experience that helps businesses manage their online stores efficiently.",
+    video: "https://www.youtube.com/embed/SsPRB2z7tDc",
+    stack: [
+      { name: "Next.js" },
+      { name: "Payload CMS" },
+      { name: "MongoDB" },
+      { name: "Stripe" },
+      { name: "Tailwind CSS" },
+      { name: "Pusher" },
+    ],
+    github: "https://github.com/hossamelsahafy/Coffee",
+    live: "https://coffee-and-tea.vercel.app/en",
+  },
+  {
+    num: "02",
+    category: "Fullstack",
     title: "Real State Website",
     description:
       "Real State Website is a full-stack real estate portfolio platform designed to showcase commercial and residential projects in a modern, engaging way. Built with Next.js and powered by Payload CMS, the platform highlights property showcases, project details, and visual case studies that help attract potential clients and investors. Visitors can easily explore different real estate categories, view project galleries, and connect with the business through integrated contact forms. Featuring smooth, modern animations with Framer Motion, the site delivers a fast, responsive, and immersive experience that reflects professionalism, trust, and high-quality real estate presentation",
@@ -31,7 +49,7 @@ const projects = [
     live: "https://real-estate-website-r21y.vercel.app/en",
   },
   {
-    num: "02",
+    num: "03",
     category: "Fullstack",
     title: "Yemedia",
     description:
@@ -46,7 +64,7 @@ const projects = [
     live: "https://yemedia.vercel.app/en",
   },
   {
-    num: "03",
+    num: "04",
     category: "Fullstack",
     title: "Rehla Marketing",
     description:
@@ -61,7 +79,7 @@ const projects = [
     live: "https://rehla-lovat.vercel.app/en",
   },
   {
-    num: "04",
+    num: "05",
     category: "Fullstack",
     title: "Business Partners",
     description:
@@ -76,7 +94,7 @@ const projects = [
     live: "https://business-partners-web.vercel.app/en",
   },
   {
-    num: "05",
+    num: "06",
     category: "Fullstack",
     title: "BC Pharma",
     description:
@@ -91,7 +109,7 @@ const projects = [
     live: "https://best-choice-pharma.com/",
   },
   {
-    num: "06",
+    num: "07",
     category: "Fullstack",
     title: "Shadows",
     description:
@@ -106,7 +124,7 @@ const projects = [
     live: "https://shadows-navy.vercel.app/en",
   },
   {
-    num: "07",
+    num: "08",
     category: "Full-Stack",
     title: "NovoApp",
     description:
@@ -122,7 +140,7 @@ const projects = [
   },
 
   {
-    num: "08",
+    num: "09",
     category: "Full-Stack",
     title: "GigaByte-Damietta",
     description:
@@ -134,7 +152,7 @@ const projects = [
   },
 
   {
-    num: "09",
+    num: "10",
     category: "Frontend",
     title: "Art Packaging",
     description:
@@ -146,7 +164,7 @@ const projects = [
   },
 
   {
-    num: "10",
+    num: "11",
     category: "Full-Stack",
     title: "CareClinic",
     description:
@@ -163,7 +181,7 @@ const projects = [
   },
 
   {
-    num: "11",
+    num: "12",
     category: "Full-Stack",
     title: "PizzaHub",
     description:
